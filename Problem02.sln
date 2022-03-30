@@ -9,6 +9,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "2페이지 level 1 13번 - 
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "2페이지 level 1 14번 - 수박수박수박수", "2페이지 level 1 14번 - 수박수박수박수\2페이지 level 1 14번 - 수박수박수박수.csproj", "{D9CBBB52-936E-49DF-814A-B505596F2DAB}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "2페이지 level 1 15번 - 소수찾기", "2페이지 level 1 15번 - 소수찾기\2페이지 level 1 15번 - 소수찾기.csproj", "{7103D879-8A1A-4562-B9F9-FC001F853EEF}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -27,6 +29,10 @@ Global
 		{D9CBBB52-936E-49DF-814A-B505596F2DAB}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{D9CBBB52-936E-49DF-814A-B505596F2DAB}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{D9CBBB52-936E-49DF-814A-B505596F2DAB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7103D879-8A1A-4562-B9F9-FC001F853EEF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7103D879-8A1A-4562-B9F9-FC001F853EEF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7103D879-8A1A-4562-B9F9-FC001F853EEF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7103D879-8A1A-4562-B9F9-FC001F853EEF}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
