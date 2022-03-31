@@ -15,7 +15,10 @@ namespace _2페이지_level_1_19번___문자열내마음대로정렬하기
             string[] answer = strings.OrderBy(x => x).ToArray();
             answer = answer.OrderBy(x => x).ToArray();
 
-            Console.WriteLine(answer);
+            for(int i = 0; i < answer.Length; i++)
+            {
+                Console.WriteLine(answer[i]);
+            }
         }
     }
 }
