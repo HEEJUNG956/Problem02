@@ -10,14 +10,14 @@ namespace _2페이지_level_1_19번___문자열내마음대로정렬하기
     {
         static void Main(string[] args)
         {
-            string[] strings = { Console.ReadLine() };
+            string[] strings = { Console.ReadLine(), Console.ReadLine(), Console.ReadLine() };
             int n = int.Parse(Console.ReadLine());
             string[] answer = strings.OrderBy(x => x).ToArray();
-            answer = answer.OrderBy(x => x).ToArray();
+            answer = answer.OrderBy(x => x[n]).ToArray();
 
             for(int i = 0; i < answer.Length; i++)
             {
-                Console.WriteLine(answer[i]);
+                Console.Write(answer[i] + " ");
             }
         }
     }
